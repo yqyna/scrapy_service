@@ -30,7 +30,7 @@ DB_SETTINGS = {
 }
 # 激活pipelines，需要添加才能够使用pipelines
 ITEM_PIPELINES = {
-   'novel.pipelines.QiushibaikePipeline': 300,
+   'novel.pipelines.NovelPipeline': 300,
 }
 
 FEED_EXPORT_ENCODING = 'utf-8'
